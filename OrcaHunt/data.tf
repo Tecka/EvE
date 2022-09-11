@@ -37,6 +37,8 @@ resource "azurerm_key_vault" "kva" {
   }
 }
 
+
+
 resource "azurerm_service_plan" "asp" {
   name                = local.asp_name
   resource_group_name = local.rg_name
