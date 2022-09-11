@@ -10,6 +10,8 @@ resource "azurerm_storage_account" "data" {
   }
 }
 
+
+/*
 resource "azurerm_storage_table" "regions" {
   name                 = "regions"
   storage_account_name = azurerm_storage_account.data.name
@@ -19,3 +21,4 @@ resource "azurerm_storage_table" "contracts" {
   name                 = "contracts"
   storage_account_name = azurerm_storage_account.data.name
 }
+*/
